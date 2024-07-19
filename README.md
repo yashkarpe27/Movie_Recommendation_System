@@ -1,6 +1,6 @@
 # Movie_Recommendation_System
 
-Problem Statement
+## Problem Statement
 
 Over the past two decades, there has been a monumental shift in how people
 access and consume video content. With universal accessto broadband
@@ -30,9 +30,9 @@ on the size of the set.
 You have recently joined as a Data Scientist at “MyNextMovie” and plan to
 help the existing team to set up a recommendation platform.
 
-Objective
+## Objective
 
-Create a popularity based recommender system at a genre level. User will
+**1**Create a **popularity based recommender system** at a genre level. User will
 input a genre (g), minimum ratings threshold (t) for a movie and no. of
 recommendations(N) for which it should be recommended top N movies
 which are most popular within that genre (g) ordered by ratingsin descending
@@ -48,7 +48,7 @@ Minimum reviews threshold (t) : 100
 Num recommendations (N) : 5
 
 
-Create a content-based recommendersystem which recommendstop N
+**2**Create a **content-based recommender system** which recommendstop N
 movies based on similar movie(m) genres.
 
 Example:
@@ -59,7 +59,7 @@ Movie Title (t) : Toy Story
 Num recommendations (N) : 5
 
 
-Create a collaborative based recommendersystem which recommendstop N
+**3**Create a **collaborative based recommender system** which recommendstop N
 movies based on “K” similar users for a target user “u”
 
 Example:
@@ -71,14 +71,14 @@ Num recommendations(N) : 5
 
 Threshold forsimilar users(k): 100
 
-Data Description
+## Data Description
 The data consists of 105339 ratings applied to over 10329 movies. The average
 rating is 3.5 and minimum and maximum rating is 0.5 and 5 respectively. There
 are 668 users who have given their ratings for 149532 movies.
 
 There are two data files which are provided:
 
-Movies.csv
+**Movies.csv**
 
 movieId: ID assigned to a movie.
 
@@ -86,7 +86,7 @@ title: Title of a movie
 
 genres: pipe separated list of movie genres.
 
-Ratings.csv
+**Ratings.csv**
 
 userId: ID assigned to a user
 
@@ -96,19 +96,19 @@ rating: rating by a user to a movie
 
 Timestamp: time at which the rating was provided.
 
-Steps and Tasks
+**Steps and Tasks**
 
-Import libraries and load dataset
+> Import libraries and load dataset
 
-Exploratory Data Analysis including:
+> Exploratory Data Analysis including:
 
-Understanding of distribution of the features available.
+> Understanding of distribution of the features available.
 
-Finding unique users and movies.
+> Finding unique users and movies.
 
-Average rating and Total movies at genre level.
+> Average rating and Total movies at genre level.
 
-Unique genres considered.
+> Unique genres considered.
 
-Design the 3 different types of recommendation modules as mentioned in
+> Design the 3 different types of recommendation modules as mentioned in
 objectives.
