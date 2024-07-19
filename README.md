@@ -32,7 +32,7 @@ help the existing team to set up a recommendation platform.
 
 ## Objective
 
-**1** Create a **popularity based recommender system** at a genre level. User will
+Create a **popularity based recommender system** at a genre level. User will
 input a genre (g), minimum ratings threshold (t) for a movie and no. of
 recommendations(N) for which it should be recommended top N movies
 which are most popular within that genre (g) ordered by ratingsin descending
@@ -48,7 +48,7 @@ Minimum reviews threshold (t) : 100
 Num recommendations (N) : 5
 
 
-**2** Create a **content-based recommender system** which recommendstop N
+Create a **content-based recommender system** which recommendstop N
 movies based on similar movie(m) genres.
 
 Example:
@@ -59,7 +59,7 @@ Movie Title (t) : Toy Story
 Num recommendations (N) : 5
 
 
-**3** Create a **collaborative based recommender system** which recommendstop N
+Create a **collaborative based recommender system** which recommendstop N
 movies based on “K” similar users for a target user “u”
 
 Example:
